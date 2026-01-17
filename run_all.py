@@ -10,8 +10,8 @@ notebooks = [
     "notebooks/04_feature_engineering.ipynb",
     "notebooks/05_baseline_strategy.ipynb",
     "notebooks/06_ml_models.ipynb",
-    "notebooks/07_outlier_analysis.ipynb"
-    
+    "notebooks/07_outlier_analysis.ipynb",
+    "notebooks/08_lstm_strategy.ipynb"
     
 ]
 
