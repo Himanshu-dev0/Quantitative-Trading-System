@@ -11,8 +11,9 @@ An automated trading research pipeline using HMM Regime Detection and XGBoost fo
     *   `03_regime_detection.ipynb`: HMM model training.
     *   `04_feature_engineering.ipynb`: Calculates Greeks and indicators.
     *   `05_baseline_strategy.ipynb`: EMA crossover strategy.
-    *   `06_ml_models.ipynb`: XGBoost/LSTM model training.
+    *   `06_ml_models.ipynb`: XGBoost model training.
     *   `07_outlier_analysis.ipynb`: Analysis of outlier trades.
+    *   `08_lstm_strategy.ipynb`: Long Short-Term Memory (LSTM) deep learning model.
 *   **/src**: Python source modules:
     *   `data_utils.py`: Data fetching and saving utilities.
     *   `features.py`: Feature engineering calculations.
