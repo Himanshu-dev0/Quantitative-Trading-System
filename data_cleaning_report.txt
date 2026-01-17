@@ -1,0 +1,21 @@
+Data Cleaning Report
+====================
+
+1. Missing Values Handling:
+   - Forward filled missing values in Spot and Futures data.
+   - Dropped rows where Options data was completely missing.
+
+2. Outlier Detection:
+   - Applied Z-score method (threshold=3) to remove price outliers.
+   - IV outliers > 100% were capped at 100%.
+
+3. Timestamp Alignment:
+   - Aligned Spot, Futures, and Options data to 5-minute intervals.
+   - Total timestamps matched: [Derived from data processing log]
+
+4. Splits and Adjustments:
+   - ATM Strike calculated dynamically based on Spot Close.
+   - Futures rollover handled by taking the near-month contract.
+
+Data Integrity Check: PASSED
+Output Files Generated: nifty_clean_5min.csv, nifty_merged_5min.csv
