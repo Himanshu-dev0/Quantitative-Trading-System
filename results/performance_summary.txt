@@ -1,0 +1,6 @@
+--- QUANTITATIVE STRATEGY REPORT ---
+Total Trades: 1229
+Average Return: -0.0068%
+Best Trade: 0.2412%
+Worst Trade: -0.4205%
+Status: Strategy successfully executed.

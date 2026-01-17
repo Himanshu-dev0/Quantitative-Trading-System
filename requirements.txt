@@ -1,0 +1,11 @@
+yfinance
+pandas
+numpy
+mibian
+hmmlearn
+xgboost
+scikit-learn
+matplotlib
+seaborn
+nbconvert
+ipykernel
